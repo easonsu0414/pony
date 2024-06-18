@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="../pony/js/jquery-3.3.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="../pony/js/script.js"></script>
  
   <title></title>
@@ -15,17 +17,18 @@
     <div class="logo"><a href="../pony/index.html"><img src="../pony/ss/小馬logo-1 1.png" alt=""></a></div>
     <img src="../pony/ss/menu.png" alt="" class="burger">
     <ul class="menu">
-      <li><a href="#"><h3>旅運附駕</h3></a></li>
+      <li><a href="../pony/drive.html"><h3>旅運附駕</h3></a></li>
       <li><a href="#"><h3>長期租車</h3></a></li>
-      <li><a href="#"><h3>關於小馬</h3></a></li>
+      <li><a href="../pony/about.html"><h3>關於小馬</h3></a></li>
       <li><a href="#"><h3>服務據點</h3></a></li>
       <li><a href="#"><h3>線上預約</h3></a></li>
     </ul>
 
+
     <ul class="bgmenu">
-      <li><a href="#"><h3>旅運附駕</h3></a></li>
+      <li><a href="../pony/drive.html"><h3>旅運附駕</h3></a></li>
       <li><a href="#"><h3>長期租車</h3></a></li>
-      <li><a href="#"><h3>關於小馬</h3></a></li>
+      <li><a href="../pony/about.html"><h3>關於小馬</h3></a></li>
       <li><a href="#"><h3>服務據點</h3></a></li>
       <li><a href="#"><h3>線上預約</h3></a></li>
     </ul>
@@ -61,12 +64,14 @@
     </div>
 
   </div>
-  
-  <div class="drivingtitle">
+  </div>
+  <div data-aos="fade-up">
+  <div class="carefultitle ">
   <h1>關於小馬</h1>
   <h3>小馬31年歷練最受肯定，衷心期盼：”小馬租車‧與您同行”。</h3>
   </div>
-
+  </div>
+  <div data-aos="fade-up">
   <div class="careful">
     <div class="carefulout">
     <div class="text">
@@ -76,7 +81,9 @@
     <div class="towpic1"><div class="imgm"><img src="../pony/ss/careful1.png" alt=""><img src="../pony/ss/careful2.png" alt=""></div></div>
   </div>
   </div>
+</div>
 
+<div data-aos="fade-up">
   <div class="careful">
     <div class="carefulout">
       <div class="towpic1"><div class="imgm"><img src="../pony/ss/careful3.png" alt=""><img src="../pony/ss/careful4.png" alt=""></div></div>
@@ -86,6 +93,8 @@
 
   </div>
   </div>
+</div>
+
 
   
       <footer>
@@ -284,6 +293,10 @@
               },
             });
     </script>
+
+<script>
+  AOS.init();
+</script>
 
 
 </body>
