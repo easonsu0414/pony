@@ -1,0 +1,1807 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+}
+
+header{
+width: 100%;
+height: 100px;
+background-color: #FCD100;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.logo{
+
+margin-right: auto;
+justify-content:center;
+width: 193px;
+margin-left: 30px;
+
+}
+
+
+.logo img{
+width:100%;
+
+
+}
+
+
+
+.menu{
+display: flex;
+margin-right: 50px;
+flex-basis: 482px;
+
+
+
+}
+
+.menu li{
+flex-grow: 1;
+
+
+}
+
+.menu li a{
+display: block;
+text-decoration: none;
+width: 90%;
+color: #212121;
+border-radius:43px;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+box-sizing: border-box;
+
+}
+
+.menu li a:hover{
+background-color: #F8E06D;
+
+}
+
+
+
+.menu li a h3{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+
+
+}
+
+.banner{
+width: 100%;
+
+}
+
+.news{
+ width: 100%;
+ background-color: #FAFAFA;
+
+}
+
+
+.choosecar{
+width: 100%;
+background-color: #fafafa;
+
+}
+
+
+.news ul{
+width: 96%;
+background-color: #EEEEEE;
+margin: 0 auto;
+border-radius:25px;
+
+}
+
+.news li{
+width: 20%;
+margin-right: 1%;
+margin-left: 1%;
+}
+
+.news h1{
+text-align: center;
+font-size: 36px;
+padding-bottom: 30px;
+font-weight:bold;
+padding-top: 70px;
+box-sizing: border-box;
+}
+
+.news h2{
+text-align: center;
+padding-top: 2%;
+font-size: 18px;
+}
+
+.cont{
+display: flex;
+align-items:center;
+margin: 0 auto;
+width: 98%;
+padding-bottom: 7%;
+}
+
+.cont a{
+flex-grow: 1;
+text-decoration: none;
+color: #ffffff;
+font-size: 20px;
+
+
+}
+
+.cont li img{
+width: 100%;
+}
+
+
+.cont li{
+flex-grow: 1;
+
+
+}
+
+
+.choosecarmenu{
+width: 60%;
+margin: 0 auto;
+
+}
+
+.choosecarmenu h1{
+font-size: 36px;
+text-align: center;
+padding-top: 8%;
+box-sizing: border-box;
+font-weight:bold;
+
+}
+
+.btn {
+
+  margin: 0 auto;
+  display: flex;
+  width:  80%;
+  margin-top: 30px;
+  flex-grow: 1;
+  padding-bottom: 30px;
+
+}
+
+.btn5{
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn7{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn8{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn9{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn5-1{
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+
+.btn7-1{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn8-1{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+.btn9-1{
+  height: 54px;
+  width: 23%;
+  display: block;
+  background-color: #FAFAFA;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border-radius:43px;
+  font-size: 18px;
+  margin: 0 auto;
+  border: 1px solid #212121;
+  color: #212121;
+
+}
+
+
+.car h5{
+text-align: center;
+font-size: 20px;
+line-height: 1.3;
+margin-bottom: 15px;
+}
+
+.car a{
+margin: 0 auto;
+display: block;
+background-color: #212121;
+width: 41%;
+text-align: center;
+line-height: 2.5;
+border-radius:43px;
+text-decoration: none;
+color: #ffffff;
+margin-bottom: 30px;
+
+}
+
+.car ul{
+display: flex;
+width: 90%;
+margin: 0 auto;
+margin-bottom: 30px;
+
+}
+
+
+/* .car li{
+  width: 23%;
+  height:100%;
+  border: 1px solid #E6E6E6;
+  text-align:center;
+  border-radius:43px;
+  margin: 0 auto;
+  } */
+
+  /* .car ul li img{
+   width:80%;
+   padding-top: 30px;
+   mix-blend-mode: darken;
+
+  } */
+
+  .car_re{
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    text-align:center;
+    border-radius:43px;
+    margin: 0 auto;
+    background-color: #fff;
+
+  }
+
+  .car_re:hover{
+    border: 1.5px solid #FCD100;
+
+
+  }
+
+  
+
+  .car_re a{
+  display: block;
+  background-color: #212121;
+  width: 41%;
+  text-align: center;
+  line-height: 2.5;
+  border-radius:43px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0  auto;
+  margin-bottom: 30px;
+}
+
+  .car_re h5{
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  }
+
+
+  .inf{
+    padding-top: 30px;
+
+  }
+
+
+
+
+
+  footer{
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    padding-bottom: 2%;
+ 
+  }
+
+
+
+  .logoadd{
+    flex-grow: 1;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  .logoadd p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+
+  .logoadd img{
+    width: 80%;
+
+    
+  }
+
+
+  .navfooter{
+    width: 38.5%;
+    flex-grow: 2;
+    padding-left: 3%;
+    padding-top: 3%;
+
+
+  }
+
+  .community{
+    width: 30%;
+    padding-left: 3%;
+    padding-top: 3%;
+
+
+  }
+
+  .community h2{
+    font-size: 20px;
+    padding-bottom: 3%;
+    color: #ffffff;
+
+  }
+
+
+  .pic{
+    display: flex;
+
+
+  }
+  
+  .pic img{
+    width: 47px;
+    cursor: pointer;
+
+  }
+
+  .order{
+    width: 90%;
+    background-color: #FCD100;
+    position: relative;
+    border-radius:13px;
+    border: 1px solid #212121;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    padding: 20px 0;
+    margin-top: -40px;
+    margin-left: 5%;
+    box-sizing: border-box;
+  
+  }
+
+  .picker{
+  width: 20%;
+  box-sizing: border-box;
+  padding: 0 10px;
+
+  }
+
+  .picker h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+
+  .picker svg{
+    width: 20px;
+    padding-right: 5px;
+  }
+   
+
+  .picker a{
+    text-decoration: none;
+    color: #212121;;
+    display: block;
+    line-height: 3;
+    background-color: #fff;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    padding-left:6%;
+    padding-right: 10%;
+    font-size: 17px;
+  }
+
+
+.picker5{
+width: 20%;
+height: 100%;
+box-sizing: border-box;
+padding: 0 10px;
+}
+
+.picker5 h5{
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+ 
+
+.picker5 a{
+  text-decoration: none;
+  color: #FAFAFA;;
+  display: block;
+  line-height: 3;
+  background-color: #212121;
+  border-radius:30px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+}
+
+.picker5 p{
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.picker3{
+  width: 20%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  }
+  
+  .picker3 h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+   
+  
+  .picker3 a{
+    text-decoration: none;
+    color: #212121;;
+    display: block;
+    line-height: 3;
+    background-color: #fff;
+    /* text-align: center; */
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    padding-left:6%;
+    padding-right: 10%;
+    font-size: 17px;
+  
+  }
+  
+  .picker3 p{
+    width: 100%;
+    /* text-align: center; */
+    flex-grow: 1;
+    margin-right: 3%;
+    font-size: 20px;
+  }
+
+  .picker3 svg{
+    flex-grow: 1;
+    width: 25px;
+    padding-right: 10px;
+
+  }
+
+/* 這邊是js */
+
+
+.swiper-button-prev{
+  color: #212121;
+
+}
+
+.swiper-button-next{
+  color: #212121;
+
+}
+
+.car_re img{
+  width:80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  mix-blend-mode: darken;
+}
+
+
+
+.carousel{
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.mySwipercar{
+width: 90%;
+display: block;
+}
+
+
+/* .cont{
+  display: flex;
+  align-items:center;
+  margin: 0 auto;
+  width: 98%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  }
+   */
+
+  .conte h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  
+  }
+  
+  .conte img{
+  width: 100%;
+  }
+  
+
+  .mySwiperconte{
+    width: 90%;
+
+
+  }
+  
+  .newstitle{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    box-sizing: border-box;
+
+  }
+
+
+  .mySwiperinf{
+    width: 90%;
+
+
+  }
+
+
+  
+  .inf h5{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  
+  }
+  
+  .inf img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    }
+    
+
+    .infstitle{
+      text-align: center;
+      font-size: 36px;
+      padding-bottom: 10px;
+      font-weight: bold;
+      padding-top: 70px;
+      box-sizing: border-box;
+  
+    }
+
+  .statement{
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 13px;
+  }
+
+  .statement1{
+    background-color: #212121;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    font-size: 13px;
+    display: none;
+  }
+
+
+  .mySwipercar1{
+    width: 90%;
+    display: none;
+  }
+
+  .mySwipercar2{
+    width: 90%;
+    display: none;
+  }
+
+  .mySwipercar3{
+    width: 90%;
+    display: none;
+  }
+/* 550尺寸開 */
+  .mySwipercar4{
+    width: 90%;
+    display: none;
+  }
+
+  .mySwipercar5{
+    width: 90%;
+    display: none;
+  }
+
+  .mySwipercar6{
+    width: 90%;
+    display: none;
+  }
+
+  .mySwipercar7{
+    width: 90%;
+    display: none;
+  }
+/* 550尺寸開 */
+  .mySwiperconte1{
+    display: none;
+
+  }
+
+  .mySwiperconte2{
+    display: none;
+    padding-left: 5%;
+  }
+
+  #smallsize{
+    display: none;
+
+  }
+
+  .inf{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
+  .inf li{
+    width: 50%;
+
+
+  }
+
+  #nobr{
+    display: none;
+
+  }
+
+  .burger{
+    display: none;
+
+  }
+
+  .btn5:hover{
+  background-color: #FCD100;
+
+  }
+
+
+  .btn7:hover{
+    background-color: #FCD100;
+  
+    }
+
+  .btn8:hover{
+    background-color: #FCD100;
+    
+    }
+
+  .btn9:hover{
+    background-color: #FCD100;
+      
+    }
+
+  .point{
+    cursor: pointer;
+  }
+
+  .inf li:hover{
+    transform: scale(1.02);
+    animation: move 0.3s forwards;
+       
+  }
+
+  @keyframes move {
+    0% { transform: scale(1); }
+    100% { transform:scale(1.02); }
+  } 
+
+  .conte:hover{
+    transform: scale(1.02);
+    animation: move 0.3s forwards;
+
+  }
+
+  @keyframes move {
+    0% { transform: scale(1); }
+    100% { transform:scale(1.02); }
+  } 
+  
+  .carlout{
+    display: none;
+
+  }
+  
+  .fb{
+  padding-right: 8px;
+
+  }
+
+  .bgmenu{
+    width: 151px;
+    height: 264px;
+    background-color: #fff;
+    opacity: 75%;
+    position: absolute;
+    right: 24px;
+    top: 99px;
+    z-index: 3;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+  }
+
+
+  .bgmenu h3{
+    color: #212121;
+    margin-top: 18px;
+
+  }
+
+  .bgmenu a{
+    text-decoration: none;
+    margin: 0 auto;
+
+  }
+
+  .bgmenu li{
+    height: 20%;
+    width: 80%;
+    display: flex;
+    border-bottom: 0.5px solid rgb(198, 198, 198);
+    margin: 0 auto;
+
+  }
+
+  .banner2{
+    display: none;
+
+
+  }
+
+  /* 以下是旅運附駕頁 */
+
+
+  .drivingtitle{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .drivingtitle h1{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 70px;
+    box-sizing: border-box;
+  }
+
+  .drivingtitle h3{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #757575;
+    line-height: 1.7;
+
+  }
+
+
+  .contenttitle{
+    padding-left: 10%;
+    padding-right: 10% 
+
+
+  }
+
+
+  .contenttitle h1{
+    font-size: 36px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding-top: 70px;
+    box-sizing: border-box;
+    line-height: 1.4;
+    word-break: break-all;
+  }
+
+
+  .contenttitle h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #757575;
+  }
+
+  .reserve{
+    width: 209px;
+    display: block;
+    line-height: 3;
+    background-color: #212121;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    font-size: 22px;
+
+  }
+
+  .drivingman{
+    position: relative;
+    width: 100%;
+
+  }
+
+  .work{
+    position: absolute;
+    width: 30%;
+    right: 11%;
+    padding-top: 8%;
+    z-index: 2;
+    box-sizing: border-box;
+  }
+
+  .careful{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    margin-top: 50px;
+
+
+  }
+
+  .towpic1 img{
+    width: 18vw;
+    box-sizing: border-box;
+    margin-left: 28px;
+    margin-right: -11px;
+  }
+
+  .text{
+    width: 30%;
+    padding-right: 10px;
+
+
+  }
+  
+  .carefulout{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+
+
+  }
+
+  .text h5{
+   font-size: 36px; 
+   font-weight: bold;
+   margin-bottom: 15px;
+   margin-top: 50px;
+   line-height: 1.4;
+  }
+
+  
+  .text h3{
+    font-size: 24px; 
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 1.4;
+   }
+
+  .imgm{
+    margin: 0 auto;
+  }
+
+  .towpic1 .imgm img:nth-child(2) {
+    transform: translateY(20px);
+
+
+  }
+
+
+  /* 以下是斷點 */
+
+
+  @media only screen and (max-width: 1100px) {
+    
+    .order{
+        flex-wrap: wrap;
+    }
+
+    .picker{
+      width: 50%;
+    }
+    
+    .picker3{
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .picker5{
+      width: 100%;
+
+    }
+
+    .picker a{
+      font-size: 17px;
+      padding-left: 4%;
+    }
+
+    .picker svg{
+      width: 5%;
+      padding-right: 2%;
+    }
+
+    .picker3 h5{
+      margin-top: 14px;
+      font-size: 14px;
+
+    }
+
+    .picker h5{
+      font-size: 14px;
+    }
+
+    .picker3 p {
+      font-size: 17px;
+      flex-grow: 0;
+      margin-right: 0;
+
+    }
+
+    .picker3 svg{
+      width: 17px;
+      flex-grow: 0;
+    }
+
+
+    .mySwiperconte1{
+      display: block;
+  
+    }
+  
+    .mySwiperconte{
+      display: none;
+  
+    }
+
+    .mySwiperconte1{
+      padding-left: 5%;
+      box-sizing: border-box;
+    }
+
+
+    .btn5{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+    
+    .btn7{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+
+    .btn8{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+    
+    .btn9{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+    
+    .btn5-1{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+    
+    .btn7-1{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+
+    .btn8-1{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+    
+    .btn9-1{
+      height: 48px;
+      padding-top: 14px;
+
+    }
+
+    #smallsize{
+      display: none;
+
+    }
+
+    .mySwipercar4{
+      display: none;
+
+    }
+
+    .carfout{
+      display: block;
+
+    }
+ 
+    .carlout{
+      display: none;
+
+    }
+
+    .car_re a{
+      width: 50%;
+    
+    }
+
+    #nobr{
+      display: none;
+
+    }
+
+    .statement1{
+      display: none;
+    }
+   
+    .cont a{
+     font-size:16px;
+
+
+    }
+
+    .logoadd p{
+      font-size: 14px;
+    }
+
+    .community h2{
+      font-size: 18px;
+
+    }
+
+    .choosecarmenu{
+      width: 80%;
+
+    }
+
+    .btn{
+      width: 100%;
+
+    }
+
+    .newstitle{
+      font-size: 32px;
+
+
+    }
+
+    .choosecarmenu h1{
+      font-size: 32px;
+
+    }
+
+    .infstitle{
+      font-size: 32px;
+
+    }
+
+    .pic img{
+      width: 34px;
+
+    }
+
+    .picker3 a{
+    padding-left: 4.5%;
+
+    }
+
+    .picker5 a{
+    border-radius: 8px;
+
+
+    }
+
+    
+
+
+
+
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    
+    .menu li a h3{
+      font-size: 13px;
+
+    }
+
+    .newstitle{
+      font-size: 24px;
+      padding-bottom:20px;
+      padding-top: 35px;
+  
+
+    }
+
+    .conte h2{
+      font-size: 16px;
+
+    }
+
+    .mySwiperconte1{
+      padding-left: 5%;
+      box-sizing: border-box;
+    }
+
+    .choosecarmenu h1{
+      font-size: 24px;
+
+    }
+
+    .btn{
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .btn5{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+    }
+
+    .btn7{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+
+    }
+
+    .btn8{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+    }
+
+    
+    .btn9{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+
+    }
+
+    .btn5-1{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+    }
+
+    .btn7-1{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+
+    }
+
+    .btn8-1{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+    }
+
+    
+    .btn9-1{
+      height: 40px;
+      font-size : 14px;
+      padding-top : 12px;
+
+    }
+
+    .car_re{
+      border-radius:20px;
+
+
+    }
+
+    .car_re a{
+      font-size: 13px;
+      width: 60%;
+    
+    }
+
+    .car_re h5{
+      font-size: 16px;
+      line-height:1.1;
+
+    }
+
+    .infstitle{
+      font-size: 24px;
+      padding-top: 45px;
+
+
+    }
+
+    .inf{
+      padding-top: 12px;
+
+
+    } 
+
+    .inf h5{
+      font-size: 16px;
+
+    }
+
+    .logoadd p{
+      font-size: 11px;
+
+    }
+    
+    .cont a{
+      font-size: 13px;
+
+    }
+
+    .community h2{
+      font-size: 12px;
+
+
+    }
+
+    .pic img{
+      width: 23px;
+      padding-left: 4px;
+      padding-top: 6px;
+
+    }
+
+    .statement{
+      font-size: 7px;
+      padding-bottom: 20px;
+
+    }
+
+    .statement1{
+      font-size: 10px;
+      padding-bottom: 20px;
+      text-align: left;
+      display: none;
+
+    }
+
+    .picker a{
+      font-size: 14px;
+
+    }
+
+    .picker3 p{
+      font-size: 14px;
+
+    }
+
+    .picker svg{
+      width: 16px;
+
+    }
+
+    .carousel{
+      height: 300px;
+
+    }
+
+    .menu{
+      display: none;
+
+
+    }
+
+
+    .carousel{
+      height: 350px;
+    }
+
+    #smallsize{
+      display: none;
+
+    }
+
+    .mySwipercar4{
+      display: none;
+
+    }
+
+    #bigsize{
+      display: block;
+      display: flex;
+
+    }
+
+    #smallsize{
+      display: none;
+
+    }
+
+    .carfout{
+      display: block;
+
+    }
+ 
+    .carlout{
+      display: none;
+
+    }
+    
+    .logo img{
+      width: 70%;
+
+
+    }
+
+    header{
+      height: 90px;
+
+    }
+
+
+    .navfooter{
+      width: 60%;
+
+
+    }
+
+    #nobr{
+      display: none;
+
+    }
+
+    .burger{
+      display: block;
+      width: 7%;
+      padding-right: 4%;
+      padding-bottom: 1%;
+    }
+
+    .fb{
+      padding-right: 1px;
+    
+      }
+
+      .bgmenu{
+        display: none;
+        right: 9px;
+        top: 99px;
+      }
+
+  }
+
+
+  @media only screen and (max-width: 550px) {
+
+    .mySwiperconte{
+      display: none;
+
+    }
+
+
+    .mySwiperconte1{
+      display: none;
+  
+    }
+  
+    .mySwiperconte2{
+      display: block;
+    }
+  
+
+    .carousel{
+      height: 400px;
+
+
+    }
+
+    .choosecarmenu {
+      width: 90%;
+
+
+    }
+
+
+    #bigsize{
+      display: none;
+
+    }
+
+    #smallsize{
+      display: block;
+      display: flex;
+
+    }
+
+    .mySwipercar{
+      display: none;
+
+    }
+
+    .mySwipercar4{
+      display: block;
+
+    }
+
+    .carfout{
+      display: none;
+
+    }
+
+    
+    .carlout{
+      display: block;
+
+    }
+
+    .logo img{
+      width: 60%;
+
+
+    }
+
+    header{
+      height: 70px;
+
+    }
+
+    .inf{
+      flex-wrap: wrap;
+
+
+    }
+
+    #nobr{
+      display: block;
+      order: 1;
+
+    }
+
+    #addbr{
+      display: none;
+
+
+    }
+
+    footer{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0;     
+
+    }
+
+    .picker5 a{
+      font-size: 14px ;
+
+
+    }
+
+    .picker a{
+      border-radius:9px;
+    }
+
+    .picker3 a{
+      border-radius:9px;
+    }
+
+    .picker5 a{
+      border-radius:9px;
+
+    }
+
+    .picker5 h5{
+      margin-bottom:1px;
+
+    }
+
+    .picker3 h5{
+      margin-bottom:7px;
+
+    }
+
+    .inf h5{
+    margin-bottom: 17px;      
+
+
+    }
+
+
+
+    .navfooter{
+      width: 90%;
+      order: 3;
+
+    }
+
+    .cont a{
+      text-align: center;
+
+    }
+
+    .cont{
+      padding-bottom:5%;
+
+    }
+
+    .logoadd{
+      padding-left: 6.5%;
+      padding-top: 4%;
+      padding-bottom: 2%;
+      width: 38%;
+      flex-grow: inherit;
+    }
+
+    .community h2{
+      display: none;
+
+    }
+
+    .community{
+      padding-left: 0;
+      padding-right: 0;
+      order: 2;
+
+    }
+
+    .logoadd img{
+      width: 93%;
+
+    }
+
+    .pic img {
+      width: 26%;
+      padding-left: 7px;
+      padding-top: 9%;
+  }
+
+  .statement{
+    display: none;
+
+  }
+
+  .statement1{
+    padding-left: 7%;
+    line-height:2;
+    display: block;
+  } 
+
+  .navfooter{
+    padding-left:0; 
+
+
+  }
+
+  .choosecarmenu h1{
+    padding-top:13%
+
+  }
+
+  .cont a{
+    font-size: 14px;
+
+
+  }
+
+  .burger{
+    display: block;
+    width: 9%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+  }
+
+  .bgmenu{
+    right: 9px;
+    top: 79px;   
+  }
+
+  .mySwiper{
+    display: none;
+
+  }
+
+  .banner2{
+    display: block;
+
+  }
+
+  .drivingtitle h1{
+    font-size: 24px;
+    padding-top: 33px;
+    margin-bottom: -8px;
+
+  }
+  
+  .drivingtitle h3{
+    font-size: 16px;
+
+
+  }
+
+
+  .contenttitle h1{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+
+
+  }
+
+  .contenttitle h4{
+    font-size: 16px;
+
+
+  }
+
+  .reserve{
+    font-size: 18px;
+    margin-bottom: 40px;
+
+  }
+
+  }
