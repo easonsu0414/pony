@@ -925,7 +925,7 @@ display: block;
   .drivingtitle h3{
     text-align: center;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: -20px;
     font-weight: bold;
     color: #757575;
     line-height: 1.7;
@@ -990,20 +990,21 @@ display: block;
     box-sizing: border-box;
   }
 
+  /* 以下是關於我們 */
   .careful{
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 100px;
-    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
 
 
   }
 
   .towpic1 img{
-    width: 18vw;
+    width: 44%;
     box-sizing: border-box;
-    margin-left: 28px;
-    margin-right: -11px;
+    margin-left: 8px;
+    margin-right: 2%
   }
 
   .text{
@@ -1018,6 +1019,7 @@ display: block;
     margin: 0 auto;
     width: 80%;
     justify-content: center;
+    align-items: center;
 
 
   }
@@ -1033,18 +1035,23 @@ display: block;
   
   .text h3{
     font-size: 24px; 
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     margin-top: 10px;
     line-height: 1.4;
    }
 
   .imgm{
     margin: 0 auto;
+    width: 100%;
   }
 
   .towpic1 .imgm img:nth-child(2) {
     transform: translateY(20px);
 
+  }
+
+  .towpic1{
+    width: 100%;
 
   }
 
@@ -1261,7 +1268,22 @@ display: block;
     }
 
     
+    /* 以下是關於我們 */
 
+    .careful{
+      padding-bottom: 0;
+
+
+    }
+    .carefulout{
+      flex-wrap: wrap;
+    }
+
+    .text{
+      order: 1;
+      width: 100%;
+      text-align: center;
+    }
 
 
 
@@ -1801,6 +1823,22 @@ display: block;
   .reserve{
     font-size: 18px;
     margin-bottom: 40px;
+
+  }
+
+
+  /* 以下是關於我們 */
+
+  .text h5{
+    font-size: 24px;
+
+  }
+
+  .text h3{
+    font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+
 
   }
 
